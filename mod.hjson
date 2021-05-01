@@ -1,0 +1,6 @@
+name: "thorium-evolution"
+displayName: "[#f9a3c7]Thorium[] Evolution"
+description:"Adds more thorium development"
+author: "[#C777D4]Qwaka"
+version: 1
+minGameVersion: 105
