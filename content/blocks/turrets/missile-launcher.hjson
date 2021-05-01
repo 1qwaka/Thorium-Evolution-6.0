@@ -1,0 +1,20 @@
+health: 4800
+size:5
+requirements:[
+  radium/300
+  thorium/350
+  titanium/200
+  silicon/200
+  kardam/200
+  lead/300
+]
+category: turret
+range: 224
+reloadTime: 65
+recoilAmount: 4
+powerUse: 5
+cooldown: 0.013
+heatColor: fade1da4
+research: edge
+shootSound: missile1
+inaccuracy: 5

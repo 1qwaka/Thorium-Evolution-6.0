@@ -1,0 +1,22 @@
+health: 5000
+size: 6 
+requirements: [
+  radium/500
+  titanium/500
+  thorium/500
+  graphite/500
+  copper/700
+  lead/700
+]
+category: turret
+recoilAmount: 6
+range:224
+reloadTime:300
+shootShake: 5
+powerUse: 22
+#research: eruption
+chargeSound: tedischarge-charge
+shootSound: tedischarge-shot
+chargeTime: 50
+chargeEffects: 7
+chargeMaxDelay: 30

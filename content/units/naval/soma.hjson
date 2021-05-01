@@ -1,0 +1,14 @@
+type: naval
+speed: 1
+drag: 0.2
+hitSize: 33
+health: 9500
+accel: 0.2
+rotateSpeed:1.5
+rotateShooting: false
+trailLength: 60
+trailX: 13
+trailY: -6
+trailScl: 2.8
+armor: 10
+commandLimit: 6

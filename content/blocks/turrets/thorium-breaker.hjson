@@ -1,0 +1,22 @@
+health: 3800
+size:5
+requirements:[
+  radium/250
+  thorium/300
+  surge-alloy/200
+  titanium/200
+  graphite/200
+  lead/300
+]
+category: turret
+range: 216
+shots: 1
+reloadTime: 60
+shootEffect: none
+shootShake: 3
+smokeEffect: none
+coolantMultiplier: 1.3
+shootSound: thorium-breaker-shot
+xRand:4
+recoilAmount: 5
+research: spectre

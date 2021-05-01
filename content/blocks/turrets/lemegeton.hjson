@@ -1,0 +1,32 @@
+range: 260
+category: turret
+requirements:[
+    radium/2000
+    lead/3000
+    titanium/1000
+    kardam/3000
+    thorium/3000
+    surge-alloy/750
+    plastanium/500
+    silicon/1500
+]
+size:10
+reload:12
+recoilAmount: 11
+restitution: 0.025
+research: spectre
+buildVisibility: hidden
+outlineIcon: false
+alternate: true 
+spread: 35
+shootLength: 30
+xRand: 3
+shots: 2
+inaccuracy: 3.5
+coolantMultiplier: 0.4
+coolantUsage: 1.0
+shootShake: 3
+smokeEffect: none
+heatColor: 9ad3d9
+cooldown: 0.01
+rotateSpeed: 2

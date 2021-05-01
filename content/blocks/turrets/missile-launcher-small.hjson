@@ -1,0 +1,14 @@
+health: 1600
+size: 2
+requirements:[
+  thorium/80
+  titanium/80
+  lead/80
+]
+category: turret
+range: 168
+reloadTime: 50
+inaccuracy: 10
+recoil: 6
+research: swarmer
+shootSound: missile1

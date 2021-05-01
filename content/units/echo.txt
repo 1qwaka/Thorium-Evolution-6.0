@@ -1,0 +1,27 @@
+health: 800
+hitsize: 15
+#hitsizeTile: 4
+speed: 4
+range: 0
+attackLength: 110
+rotatespeed: 0.03
+baseRotateSpeed: 0.09
+shootCone: 30
+mass: 10
+flying: true
+weapons:[
+  {
+    name: echo-gun-5.0
+    length:3
+    x: 6
+    rotate: true
+    mirror: true
+    reload: 20
+  	bullet: {
+  		type: SapBulletType
+  		sapStrength: 2
+  		length: 24
+  		damage: 120
+    }
+  }
+]

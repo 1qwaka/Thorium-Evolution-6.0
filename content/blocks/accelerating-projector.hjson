@@ -1,0 +1,14 @@
+update: true
+size: 3
+health: 600
+layer: power
+requirements:[
+  thorium/100
+  radium/50
+  plastanium/50
+]
+category: effect
+consumes:{
+	power: 5
+}
+research: force-projector

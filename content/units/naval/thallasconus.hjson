@@ -1,0 +1,105 @@
+type: naval
+speed: 0.9
+drag: 0.17
+hitSize: 20
+health: 750
+accel: 0.2
+rotateSpeed:2.2
+trailLength:20
+rotateShooting: false
+trailLength: 40
+trailX: 6.5
+trailY: -5
+trailScl: 2
+armor: 10
+commandLimit: 6
+weapons:[
+  {
+    name: thallasconus-equip
+    reload: 22
+  	rotate: true
+  	x: 4
+  	y: 7
+  	mirror: true
+	inaccuracy: 10
+	rotateSpeed: 3
+  	bullet: {
+		pierce: true
+		pierceCap: 2
+  		type: BasicBulletType
+  		damage: 16
+  		lifetime: 40
+		speed: 3.8
+  		width: 9
+		height: 11
+	  }
+  }
+  {
+    name: thallasconus-equip
+    reload: 25
+  	rotate: true
+  	x: 7.5
+  	y: 0
+  	mirror: true
+	inaccuracy: 10
+	rotateSpeed: 3
+  	bullet: {
+  		pierce: true
+		pierceCap: 2
+  		type: BasicBulletType
+  		damage: 16
+  		lifetime: 40
+		speed: 3.8
+  		width: 9
+		height: 11
+	  }
+  }
+  {
+    name: thallasconus-weapon
+    reload: 60
+  	rotate: true
+  	x: 0
+  	y: -5
+  	mirror: false
+	inaccuracy: 3
+	shake: 2
+	rotateSpeed: 2.1
+	ejectEffect: casing3
+	shootSound: artillery
+  	bullet: {
+  		type: BasicBulletType
+  		splashDamage: 60
+		splashDamageRadius: 48
+		speed: 5
+		drag: 0.03
+  		lifetime: 53
+		trailChance: 0.15
+		trailParam: 4
+		trailColor: fff8e8
+		width: 14
+		height: 15
+		despawnEffect: blastExplosion
+		hitEffect: blastExplosion
+		hitShake: 1.8
+		
+		fragCone: 60
+		fragBullets: 6
+		fragVelocityMin: 0.5
+		fragVelocityMax: 1.1
+		fragLifeMin: 0.9
+		fragLifeMax: 1.1
+		fragBullet:{
+			type: BasicBulletType
+			pierce: true
+			pierceCap: 2
+			pierceBuilding: true
+			damage: 17
+			speed: 4
+			drag: 0.025
+			lifetime: 25
+			width: 7
+			height: 8
+		}
+    }
+  }
+]

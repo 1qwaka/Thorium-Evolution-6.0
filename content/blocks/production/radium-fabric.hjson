@@ -1,0 +1,23 @@
+health: 800
+size:4
+outputItem: radium/1
+consumes:{
+  power: 8
+  items:{
+    items:[
+      thorium/2
+      phase-fabric/1
+    ]
+  }
+}
+craftTime: 100
+timers: 2
+category: crafting
+requirements:[
+  surge-alloy/75
+  thorium/200
+  lead/200
+  titanium/100
+  phase-fabric/50
+]
+research: alloy-smelter

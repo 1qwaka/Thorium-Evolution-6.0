@@ -1,0 +1,63 @@
+type: naval
+speed: 1.3
+drag: 0.17
+hitSize: 14
+health: 320
+accel: 0.2
+rotateSpeed:3.3
+trailLength:25
+trailX: 6
+rotateShooting: false
+trailScl: 1.3
+itemCapacity: 40
+commandLimit: 6
+weapons:[
+  {
+    name: littoralis-equip
+    reload: 20
+  	rotate: true
+  	x: 6
+  	y: 4
+  	mirror: true
+	shootSound: missile
+  	bullet: {
+  		type: MissileBulletType
+  		damage: 5
+		splashDamage: 12
+		splashDamageRadius: 24
+  		shootEffect: shootSmall
+		speed: 3.3
+  		width: 7
+		height: 10
+  		lifetime: 30
+		weaveMag: 8
+		weaveScale: 3
+		homingPower: 0.03
+	  }
+  }
+  {
+    name: littoralis-equip
+    reload: 23
+  	rotate: true
+  	x: 6
+  	y: -5
+  	mirror: true
+	shootSound: missile
+  	bullet: {
+  		type: MissileBulletType
+  		damage: 5
+		splashDamage: 12
+		splashDamageRadius: 24
+  		shootEffect: shootSmall
+		speed: 3.3
+  		hitColor: bf92f9
+  		color: bf92f9
+  		width: 7
+		height: 10
+  		lifetime: 30
+		weaveMag: 8
+		weaveScale: 3
+		homingPower: 0.03
+	  }
+  }
+]

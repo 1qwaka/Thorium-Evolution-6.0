@@ -1,0 +1,24 @@
+type: flying
+health: 14000
+hitsize: 35
+#hitsizeTile: 4
+speed: 0.3
+range: 250
+attackLength: 130
+rotatespeed: 0.04
+baseRotateSpeed:0.06
+#baseRotateSpeed: 0.1
+shootCone: 40
+mass: 20
+flying: true
+targetAir: true
+rotateWeapon: false
+drag: 0.1
+maxVelocity: 1
+retreatPercent: 0.6
+#itemCapacity: 30
+#buildPower: 0.3
+#minePower: 0.7
+weaponOffsetY: -7
+engineOffset: 18
+engineSize: 9

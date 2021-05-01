@@ -1,0 +1,26 @@
+{
+  name: Radium drill
+	description: Digs every ore it can dig at the same speed.
+	type: Drill
+	size: 2
+	health: 240
+	tier: 4
+	buildCostMultiplier: 1
+	drillTime: 240
+	hardnessDrillMultiplier: 0
+	updateEffect: pulverizeRed
+	drillEffect: mineHuge
+	updateEffectChance: 0.01
+	consumes: {
+		power: 1
+	}
+	requirements: [
+		thorium/50
+		radium/50
+		titanium/50
+		lead/50
+		copper/50
+	]
+	category: production
+	research: blast-drill
+}

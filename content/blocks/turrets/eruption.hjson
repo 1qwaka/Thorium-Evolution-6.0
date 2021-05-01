@@ -1,0 +1,63 @@
+#type: LaserTurret
+health: 6000
+size:6
+requirements:[
+  copper/800
+  lead/800
+  radium/400
+  thorium/500
+  surge-alloy/300
+  titanium/500
+  graphite/400
+  silicon/350
+]
+consumes:{
+  liquid: cryofluid/0.8
+}
+shootType: {
+  type: ContinuousLaserBulletType
+  length: 280
+  shake: 3
+  width: 6
+  damage: 200
+  spaceMag: 50
+  colors: [
+    ec745855
+    ec7458aa
+    ff9c5a
+    ffffff 
+  ]
+  tscales:[
+    1
+    0.7
+    0.5
+    0.3
+  ]
+  strokes:[
+    3.3
+    2.4
+    1.7
+    0.9
+  ]
+  lenscales:[
+    1
+    1.12
+    1.15
+    1.17
+  ]
+}
+category: turret
+range: 256
+reloadTime: 200
+cooldown: 0.005
+shootEffect: none
+smokeEffect: none
+coolEffect: none
+coolantMultiplier: 1.2
+powerUse: 35
+research: meltdown
+shootDuration: 180
+firingMoveFract: 0.7
+recoil: 4
+activeSound: eruption-beam
+shootSound: eruption-laserbig

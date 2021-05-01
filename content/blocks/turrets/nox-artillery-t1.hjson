@@ -1,0 +1,16 @@
+health: 5600
+size:5
+requirements:[
+  
+]
+category: turret
+range: 384
+reloadTime: 540
+buildVisbility: sandboxOnly
+powerUse: 16
+recoil: 4
+smokeEffect: none
+shootCone: 4
+shootShake: 4
+restitution: 0.005
+cooldown: 0.004

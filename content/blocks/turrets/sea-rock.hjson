@@ -1,0 +1,25 @@
+health: 4000
+size:5
+requirements:[
+  radium/500
+  thorium/500
+  surge-alloy/300
+  titanium/400
+  graphite/300
+  silicon/300
+  lead/500
+]
+velocityInaccuracy: 0.45
+recoilAmount: 9
+category: turret
+range: 160
+xRand:3
+shots:6
+shootShake: 4
+inaccuracy: 2
+reloadTime: 120
+shootEffect: none
+smokeEffect: none
+coolantMultiplier: 1.4
+shootSound: sea-rock-shot
+research: fuse

@@ -1,0 +1,2 @@
+Vars.mods.locateMod("thorium-evolution").meta.displayName = Core.bundle.get("mod.thorium-evolution.displayname");
+Vars.mods.locateMod("thorium-evolution").meta.description = Core.bundle.get("mod.thorium-evolution.description");
