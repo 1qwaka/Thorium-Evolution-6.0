@@ -41,9 +41,9 @@ const dischargeShot = new Effect(18,cons(e=>{
 }));
 
 const dischargeSphere = extend(BasicBulletType,{
-  hit(b){
+  // hit(b){
     
-  },
+  // },
   lightningAfter: function(team,x,y){
     Time.run(Mathf.random(60),run(()=>{
       var angle = Mathf.random(360);
@@ -52,7 +52,7 @@ const dischargeSphere = extend(BasicBulletType,{
       if(Mathf.chance(0.4)) Sounds.spark.at(x+Tmp.v1.x,y+Tmp.v1.y);
     }));
   },
-  despawned(b){
+  hit(b){
     Damage.damage(b.team,b.x,b.y,32,150);
     this.hitEffect.at(b);
     Effect.shake(8,16,b);
