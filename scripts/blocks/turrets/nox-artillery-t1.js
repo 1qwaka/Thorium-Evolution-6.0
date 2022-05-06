@@ -67,16 +67,16 @@ const artT1Bullet = extend(BasicBulletType,{
     Drawf.tri(b.x,b.y,4,13,r);
     Drawf.tri(b.x,b.y,4,20,r-180);
   },
-  despawned(b){
+  hit(b){
     Effect.shake(4,4,b.x,b.y);
     for(var i=0;i<6;i++){
       artT1BulletFrag.create(b.owner,b.x+Mathf.range(20),b.y+Mathf.range(20),0);
     }
     this.hitEffect.at(b);
   },
-  hit(b){
-    //this.hit(b);
-  }
+  // hit(b){
+  //   //this.hit(b);
+  // }
 });
 artT1Bullet.speed = 20;
 artT1Bullet.damage = 130;
