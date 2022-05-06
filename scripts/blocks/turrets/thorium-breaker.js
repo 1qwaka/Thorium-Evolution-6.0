@@ -8,7 +8,7 @@ const thoriumBreakerBullet = function(damage, speed, lifetime, size, frontColor,
       if(b.timer.get(5)) this.trailEffect.at(b.x,b.y,b.rotation(),this.frontColor,this.height);
     },
     hit(b){
-      
+      this.fragBullet.create(b.owner,b.x,b.y,0);
     },
     despawned(b){
       this.fragBullet.create(b.owner,b.x,b.y,0);
